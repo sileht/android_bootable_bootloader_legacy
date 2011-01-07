@@ -12,6 +12,8 @@ LOCAL_CFLAGS += -march=armv6
 
 LOCAL_MODULE := nandwrite
 
+LOCAL_MODULE_TAGS := optional
+
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)
 LOCAL_STATIC_LIBRARIES := $(TARGET_BOOTLOADER_LIBS) libboot libboot_c 
 

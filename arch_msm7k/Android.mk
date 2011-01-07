@@ -22,4 +22,6 @@ LOCAL_CFLAGS += -march=armv6
 
 LOCAL_MODULE := libboot_arch_msm7k
 
+LOCAL_MODULE_TAGS := optional
+
 include $(BUILD_RAW_STATIC_LIBRARY)
